@@ -9,6 +9,8 @@ import { MenuBarComponent } from './common/menu-bar/menu-bar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { ContactBoxComponent } from './pages/contact/contact-box/contact-box.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,14 +18,16 @@ import { ContactComponent } from './pages/contact/contact.component';
     MenuBarComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    ContactBoxComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
-  ],
+    MaterialModule,
+    HttpClientModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
