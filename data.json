@@ -1,0 +1,25 @@
+{
+    "contacts": [
+        {
+            "title": "Corporate Office",
+            "address": "Gandhi Road, IST Cross",
+            "building": "PHEONIX IT Park , Adyar",
+            "city": "Chennai , 600013",
+            "photo": "chennai.jpg"
+        },
+        {
+            "title": "Head Office",
+            "address": "Sardar Patel Road, 7th Cross",
+            "building": "BLUESTART IT Park , Andheri",
+            "city": "Mumbai , 100013",
+            "photo": "mumbai.jpg"
+        },
+        {
+            "title": "Development Center",
+            "address": "Mahatma Gandhi Road",
+            "building": "CITY IT Park , MG ROAD",
+            "city": "Bangalore, 580004",
+            "photo": "bangalore.jpg"
+        }
+    ]
+}
