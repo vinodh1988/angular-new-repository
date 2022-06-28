@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ServiceService } from 'src/app/services/service.service';
 
 @Component({
   selector: 'app-home',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
-  constructor() { }
+ services:any;
+  constructor(private ss:ServiceService) { }
 
   ngOnInit(): void {
+     this.ss.getServices().subscribe({
+        next: (data:any)=>this.services=data,
+        error: ()=>this.services=[]
+     })
   }
 
 }

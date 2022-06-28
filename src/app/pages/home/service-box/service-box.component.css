@@ -1,0 +1,27 @@
+#box
+{
+    margin:20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px gray;
+    float: left;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+#box img{
+    height: 100%;
+    width: 100%;
+}
+
+.content{
+    position: absolute;
+    bottom: 10px;
+    left: 12%;
+    color: white;
+    text-shadow: 3px 3px 3px gray;
+    font-family:arial;
+    z-index: 2;
+    font-size: 16px;
+    font-weight: bolder;
+}
