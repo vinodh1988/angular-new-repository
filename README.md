@@ -41,3 +41,10 @@ Observable
   until data is received
 
   to use HttpClient we need to import HttpClientModule
+
+  ### Form Handling
+
+  In angular , Form handling can be done in two ways
+
+    * Template based approach [ngModel]
+    * Model Based Approach [FormBuilder]
