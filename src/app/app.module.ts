@@ -14,9 +14,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { ServiceBoxComponent } from './pages/home/service-box/service-box.component';
 import { DetailsComponent } from './pages/home/service-box/details/details.component';
 import { EnquiryFormComponent } from './pages/home/enquiry-form/enquiry-form.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FeedbackBoxComponent } from './pages/about/feedback-box/feedback-box.component';
 import { FeedfilterPipe } from './pipes/feedfilter.pipe';
+import { FeedbackComponent } from './pages/about/feedback/feedback.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FeedfilterPipe } from './pipes/feedfilter.pipe';
     DetailsComponent,
     EnquiryFormComponent,
     FeedbackBoxComponent,
-    FeedfilterPipe
+    FeedfilterPipe,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +40,8 @@ import { FeedfilterPipe } from './pipes/feedfilter.pipe';
     BrowserAnimationsModule,
     MaterialModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
     ],
   providers: [],
   bootstrap: [AppComponent]

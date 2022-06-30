@@ -127,7 +127,6 @@
       "id": 1
     }
   ],
-  
   "feedbacks": [
     {
       "id": 6360,
@@ -205,6 +204,13 @@
       "email": "james@gmail.com",
       "type": "Film & Webinar",
       "message": "Needed a Ad picture showcasing our product and ...."
+    },
+    {
+      "id": 440,
+      "name": "Ranjan",
+      "email": "ranjhan@gmail.com",
+      "type": "Branding and Communication",
+      "message": "We had a wonderful experience when we worked together for a branding project"
     }
   ]
 }
