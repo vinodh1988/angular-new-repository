@@ -15,6 +15,8 @@ import { ServiceBoxComponent } from './pages/home/service-box/service-box.compon
 import { DetailsComponent } from './pages/home/service-box/details/details.component';
 import { EnquiryFormComponent } from './pages/home/enquiry-form/enquiry-form.component';
 import { FormsModule } from '@angular/forms';
+import { FeedbackBoxComponent } from './pages/about/feedback-box/feedback-box.component';
+import { FeedfilterPipe } from './pipes/feedfilter.pipe';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FormsModule } from '@angular/forms';
     ContactBoxComponent,
     ServiceBoxComponent,
     DetailsComponent,
-    EnquiryFormComponent
+    EnquiryFormComponent,
+    FeedbackBoxComponent,
+    FeedfilterPipe
   ],
   imports: [
     BrowserModule,

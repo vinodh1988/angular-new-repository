@@ -13,6 +13,10 @@ export class ServiceService {
     return this.http.get("http://localhost:4500/services");
   }
 
+  getFeedbacks():Observable<any>{
+    return this.http.get("http://localhost:4500/feedbacks");
+  }
+
   getDetails(x:number):Observable<any>{
     return this.http.get("http://localhost:4500/details/"+x);
   }

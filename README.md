@@ -48,3 +48,25 @@ Observable
 
     * Template based approach [ngModel]
     * Model Based Approach [FormBuilder]
+
+  ### pipes
+
+  Pipes are generally used in template [html]
+
+  it is represented by symbol |
+
+  pipe is usually applied on scalar variable or an array 
+
+  usually if you apply on a scalar variable [string,number,date], the data
+  would formatted
+
+  for example, some inbuilt pipes are
+
+if data="raj" 
+
+{{data | uppercase}}   - RAJ |
+
+{{price | currency:"USD"}} - $5000
+
+pipes can also be applied on array, currently there is no inbuilt pipe
+that can be applied on array but we can implement it
